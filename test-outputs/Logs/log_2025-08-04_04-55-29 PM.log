@@ -1,0 +1,16 @@
+[25evel] 04-08-2025 16:55:29 [main] [Tests.TC01_LoginTest.setUp(TC01_LoginTest.java:31)] - firefox
+[25evel] 04-08-2025 16:55:37 [main] [Tests.TC01_LoginTest.setUp(TC01_LoginTest.java:33)] - Edge is opened
+[25evel] 04-08-2025 16:55:38 [main] [Tests.TC01_LoginTest.setUp(TC01_LoginTest.java:35)] - Page is redirected to the url
+[25evel] 04-08-2025 16:55:51 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:91)] - no such element: Unable to locate element: {"method":"css selector","selector":"#shopping_cart_container > a > svg"}
+  (Session info: MicrosoftEdge=138.0.3351.121)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [738918ff1e31afe5f82c7741e301bc0e, findElement {using=css selector, value=#shopping_cart_container > a > svg}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.121, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58421}, msedge: {msedgedriverVersion: 138.0.3351.55 (3171b71f28b7..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58421/devtoo..., se:cdpVersion: 138.0.3351.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 738918ff1e31afe5f82c7741e301bc0e
+[25evel] 04-08-2025 16:55:51 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:9)] - TC null started
+[25evel] 04-08-2025 16:55:51 [main] [Tests.TC01_LoginTest.validLogin(TC01_LoginTest.java:41)] - Hello from login test
+[25evel] 04-08-2025 16:55:56 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - TC null passed
+[25evel] 04-08-2025 16:55:57 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:91)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null

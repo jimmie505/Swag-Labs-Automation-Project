@@ -1,0 +1,28 @@
+[25evel] 03-08-2025 22:30:33 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:28)] - Edge is opened
+[25evel] 03-08-2025 22:30:34 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:30)] - Page is redirected to the url
+[25evel] 03-08-2025 22:30:53 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:90)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
+[25evel] 03-08-2025 22:30:54 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:43)] - Edge is opened
+[25evel] 03-08-2025 22:31:13 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:45)] - Page is redirected to the url
+[25evel] 03-08-2025 22:31:16 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:9)] - TC null started
+[25evel] 03-08-2025 22:31:16 [main] [Pages.P02_LandingPage.selectingRandomProducts(P02_LandingPage.java:80)] - random number : 2
+[25evel] 03-08-2025 22:31:16 [main] [Pages.P02_LandingPage.selectingRandomProducts(P02_LandingPage.java:80)] - random number : 3
+[25evel] 03-08-2025 22:31:17 [main] [Pages.P02_LandingPage.selectingRandomProducts(P02_LandingPage.java:80)] - random number : 5
+[25evel] 03-08-2025 22:31:17 [main] [Pages.P02_LandingPage.numberOfProductsOnCart(P02_LandingPage.java:50)] - number of product on cart icon : 3
+[25evel] 03-08-2025 22:31:17 [main] [Pages.P02_LandingPage.numberOfSelectedProducts(P02_LandingPage.java:64)] - number of selected products : 3
+[25evel] 03-08-2025 22:31:19 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - TC null passed
+[25evel] 03-08-2025 22:31:20 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:90)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
+[25evel] 03-08-2025 22:31:22 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:43)] - Edge is opened
+[25evel] 03-08-2025 22:31:41 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:45)] - Page is redirected to the url
+[25evel] 03-08-2025 22:31:45 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:9)] - TC null started
+[25evel] 03-08-2025 22:31:45 [main] [Tests.TC02_LandingTest.checkingNumberOfSelectedProducts(TC02_LandingTest.java:53)] - Hello from login test
+[25evel] 03-08-2025 22:31:45 [main] [Pages.P02_LandingPage.addingItemsToCart(P02_LandingPage.java:40)] - number of all products : 6
+[25evel] 03-08-2025 22:31:46 [main] [Pages.P02_LandingPage.numberOfProductsOnCart(P02_LandingPage.java:50)] - number of product on cart icon : 6
+[25evel] 03-08-2025 22:31:46 [main] [Pages.P02_LandingPage.numberOfSelectedProducts(P02_LandingPage.java:64)] - number of selected products : 6
+[25evel] 03-08-2025 22:31:48 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - TC null passed
+[25evel] 03-08-2025 22:31:49 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:90)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
+[25evel] 03-08-2025 22:31:51 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:43)] - Edge is opened
+[25evel] 03-08-2025 22:32:10 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:45)] - Page is redirected to the url
+[25evel] 03-08-2025 22:32:13 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:9)] - TC null started
+[25evel] 03-08-2025 22:32:15 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - TC null passed
+[25evel] 03-08-2025 22:32:16 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:90)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
+[25evel] 03-08-2025 22:32:16 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:90)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null

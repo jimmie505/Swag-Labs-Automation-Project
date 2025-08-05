@@ -1,0 +1,23 @@
+[25evel] 26-06-2025 02:54:32 [main] [Tests.TC02_LandingPageTest.setUp(TC02_LandingPageTest.java:25)] - Edge is opened
+[25evel] 26-06-2025 02:54:33 [main] [Tests.TC02_LandingPageTest.setUp(TC02_LandingPageTest.java:27)] - Page is redirected to the url
+[25evel] 26-06-2025 02:54:33 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:9)] - TC null started
+[25evel] 26-06-2025 02:54:33 [main] [Tests.TC02_LandingPageTest.checkingNumberOfSelectedProducts(TC02_LandingPageTest.java:33)] - Hello from login test
+[25evel] 26-06-2025 02:54:36 [main] [Pages.P02_LandingPage.addingItemsToCart(P02_LandingPage.java:30)] - number of all products : 6
+[29evel] 26-06-2025 02:54:48 [main] [Pages.P02_LandingPage.numberOfProductsOnCart(P02_LandingPage.java:44)] - Expected condition failed: waiting for visibility of element located by By.id: //span[contains(@class,'fa-layers-counter')] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59419}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59419/devtoo..., se:cdpVersion: 137.0.3296.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ae677fbedfe39e4cf7680e2d28e61dd
+[25evel] 26-06-2025 02:54:58 [main] [Pages.P02_LandingPage.numberOfSelectedProducts(P02_LandingPage.java:54)] - number of selected products : 0
+[25evel] 26-06-2025 02:54:58 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:18)] - TC null failed
+[25evel] 26-06-2025 02:55:10 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:79)] - no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/span\[contains\(\@class\,\'fa\-layers\-counter\'\)\]"}
+  (Session info: MicrosoftEdge=137.0.3296.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [9ae677fbedfe39e4cf7680e2d28e61dd, findElement {using=id, value=//span[contains(@class,'fa-layers-counter')]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59419}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59419/devtoo..., se:cdpVersion: 137.0.3296.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ae677fbedfe39e4cf7680e2d28e61dd
+[25evel] 26-06-2025 02:55:10 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:21)] - Full screenshot should be taken

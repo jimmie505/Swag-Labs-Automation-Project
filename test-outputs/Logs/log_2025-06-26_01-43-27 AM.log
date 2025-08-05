@@ -1,0 +1,4 @@
+[25evel] 26-06-2025 01:43:28 [main] [Tests.TC02_LandingPageTest.setUp(TC02_LandingPageTest.java:23)] - Edge is opened
+[25evel] 26-06-2025 01:43:30 [main] [Tests.TC02_LandingPageTest.setUp(TC02_LandingPageTest.java:25)] - Page is redirected to the url
+[25evel] 26-06-2025 01:43:30 [main] [Tests.TC02_LandingPageTest.checkingNumberOfSelectedProducts(TC02_LandingPageTest.java:31)] - Hello from login test
+[25evel] 26-06-2025 01:43:39 [main] [Pages.P02_LandingPage.addingItemsToCart(P02_LandingPage.java:26)] - number of all products : 6
