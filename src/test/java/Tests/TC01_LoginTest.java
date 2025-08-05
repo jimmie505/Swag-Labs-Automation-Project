@@ -24,7 +24,7 @@ import static DriverFactory.DriverFactory.*;
 public class TC01_LoginTest {
     private final String USERNAME = DataUtils.jsonData("validLogin","username");
     private final String PASSWORD = DataUtils.jsonData("validLogin","password");
-    @BeforeMethod
+    @BeforeMethod (alwaysRun = true)
     public void setUp () throws IOException {
 
         String browser = System.getProperty("browser") != null ? System.getProperty("browser") : DataUtils.propertiesData("environment","Browser");
