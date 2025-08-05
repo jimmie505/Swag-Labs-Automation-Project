@@ -26,7 +26,7 @@ public class TC04_CheckoutTest {
     private final String FIRSTNAME = DataUtils.jsonData("validCheckout","firstName") + "-" + Utility.getTimeStamp();
     private final String LASTNAME =  DataUtils.jsonData("validCheckout","lastName") + "-" + Utility.getTimeStamp();
     private final String POSTALCODE = new Faker().number().digits(5);
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setUp () throws IOException {
         setupDriver(DataUtils.propertiesData("environment","Browser"));
         LogsUtils.info("Edge is opened");
@@ -52,7 +52,7 @@ public class TC04_CheckoutTest {
 
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void quit (){
         quitDriver();
     }
