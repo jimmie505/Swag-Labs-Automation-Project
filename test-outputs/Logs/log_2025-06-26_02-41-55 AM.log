@@ -1,5 +1,0 @@
-[25evel] 26-06-2025 02:41:56 [main] [Tests.TC01_LoginTest.setUp(TC01_LoginTest.java:30)] - Edge is opened
-[25evel] 26-06-2025 02:41:56 [main] [Tests.TC01_LoginTest.setUp(TC01_LoginTest.java:32)] - Page is redirected to the url
-[25evel] 26-06-2025 02:41:57 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:9)] - TC null started
-[25evel] 26-06-2025 02:41:57 [main] [Tests.TC01_LoginTest.validLogin(TC01_LoginTest.java:38)] - Hello from login test
-[25evel] 26-06-2025 02:42:00 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - TC null passed

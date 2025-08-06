@@ -1,5 +1,0 @@
-[25evel] 21-07-2025 15:53:15 [main] [Tests.TC06_FinishPageTest.setUp(TC06_FinishPageTest.java:29)] - Edge is opened
-[25evel] 21-07-2025 15:53:16 [main] [Tests.TC06_FinishPageTest.setUp(TC06_FinishPageTest.java:31)] - Page is redirected to the url
-[25evel] 21-07-2025 15:53:19 [main] [Pages.P02_LandingPage.selectingRandomProducts(P02_LandingPage.java:80)] - random number : 2
-[25evel] 21-07-2025 15:53:19 [main] [Pages.P02_LandingPage.selectingRandomProducts(P02_LandingPage.java:80)] - random number : 5
-[25evel] 21-07-2025 15:53:19 [main] [Pages.P02_LandingPage.selectingRandomProducts(P02_LandingPage.java:80)] - random number : 6

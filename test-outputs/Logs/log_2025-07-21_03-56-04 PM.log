@@ -1,6 +1,0 @@
-[25evel] 21-07-2025 15:56:04 [main] [Tests.TC06_FinishPageTest.setUp(TC06_FinishPageTest.java:29)] - Edge is opened
-[25evel] 21-07-2025 15:56:05 [main] [Tests.TC06_FinishPageTest.setUp(TC06_FinishPageTest.java:31)] - Page is redirected to the url
-[25evel] 21-07-2025 15:56:08 [main] [Pages.P02_LandingPage.selectingRandomProducts(P02_LandingPage.java:80)] - random number : 1
-[25evel] 21-07-2025 15:56:08 [main] [Pages.P02_LandingPage.selectingRandomProducts(P02_LandingPage.java:80)] - random number : 3
-[25evel] 21-07-2025 15:56:08 [main] [Pages.P02_LandingPage.selectingRandomProducts(P02_LandingPage.java:80)] - random number : 6
-[25evel] 21-07-2025 15:56:11 [main] [Pages.P06_FinishPage.checkingMessegeexistance(P06_FinishPage.java:16)] - the Thanks Messege : By.xpath: //h2
