@@ -35,7 +35,7 @@ public class Utility {
 
     //TODO : clicking on elements
     public static void clickOnElement (WebDriver driver, By locator){
-        new WebDriverWait(driver, Duration.ofSeconds(5))
+        new WebDriverWait(driver, Duration.ofSeconds(10))
                 .until(ExpectedConditions
                         .elementToBeClickable(locator));
         driver.findElement(locator).click();
@@ -92,7 +92,7 @@ public class Utility {
         }
 
     }
-
+    //TODO : Time stamp function
     public static String getTimeStamp(){
         return new SimpleDateFormat ("yyyy-MM-dd-h-mm-ssa").format(new Date());
     }

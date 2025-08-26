@@ -1,0 +1,12 @@
+[27evel] 12-08-2025 17:34:49 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:28)] - Edge is opened
+[27evel] 12-08-2025 17:34:49 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:30)] - Page is redirected to the url
+[27evel] 12-08-2025 17:34:51 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:91)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
+[27evel] 12-08-2025 17:34:51 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:43)] - null
+[27evel] 12-08-2025 17:34:54 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:46)] - Edge is opened
+[27evel] 12-08-2025 17:34:57 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:48)] - Page is redirected to the url
+[27evel] 12-08-2025 17:35:01 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:9)] - TC null started
+[27evel] 12-08-2025 17:35:11 [main] [Pages.P02_LandingPage.gettingItemsPrices(P02_LandingPage.java:131)] - Prices after filtering : []
+[27evel] 12-08-2025 17:35:22 [main] [Pages.P02_LandingPage.gettingItemsPrices(P02_LandingPage.java:131)] - Prices after filtering : []
+[27evel] 12-08-2025 17:35:32 [main] [Pages.P02_LandingPage.sortedPrices(P02_LandingPage.java:146)] - Actual Sorted Prices : []
+[27evel] 12-08-2025 17:35:33 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - TC null passed
+[27evel] 12-08-2025 17:35:34 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:91)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null

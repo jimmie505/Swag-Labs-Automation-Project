@@ -1,20 +1,13 @@
 package Pages;
 
-import DriverFactory.DriverFactory;
 import Utilities.LogsUtils;
 import Utilities.Utility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.logging.Logs;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Random;
-import java.util.Set;
-
-import static DriverFactory.DriverFactory.getDriver;
+import java.util.*;
 
 public class P02_LandingPage {
   WebDriver driver ;
@@ -24,6 +17,8 @@ public class P02_LandingPage {
   private static final By numberOfSelectedProducts = By.xpath("//button[contains(@class,'btn_secondary')]");
   private static final By cartIcon = By.cssSelector("#shopping_cart_container > a > svg");
   private static final By allItemPrice = By.xpath("//button[.='REMOVE']//preceding-sibling::div[@class='inventory_item_price']");
+  private static final By filterLohi = By.xpath("//option[@value='lohi']");
+  private static final By itemPrices = By.className("inventory_item_price");
   private static List<WebElement> allProduct ;
   private static List<WebElement> selectedProduct ;
 
@@ -89,7 +84,7 @@ public class P02_LandingPage {
    return new P03_CartPage(driver);
    }
 
-   public boolean verifyCArtPageUrl (String expectedUrl){
+   public boolean verifyCartPageUrl(String expectedUrl){
       try {
           Utility.generalWait(driver).until(ExpectedConditions.urlToBe(expectedUrl));
       } catch (Exception e) {
@@ -100,10 +95,11 @@ public class P02_LandingPage {
 
    public String getTotalPriceOfSelectedProducts (){
       try {
+          totalPrice = 0;
           List <WebElement> allPrices = driver.findElements(allItemPrice);
           for (int i = 1 ; i <= allPrices.size() ; i++)
           {
-              By elements = By.xpath("(//button[.=\"REMOVE\"]//preceding-sibling::div[@class=\"inventory_item_price\"])[" + i + "]");
+              By elements = By.xpath("(//button[.='REMOVE']//preceding-sibling::div[@class='inventory_item_price'])["+i+"]");
               String fullText = Utility.getText(driver,elements);
               totalPrice += Float.parseFloat(fullText.replace("$",""));
           }
@@ -114,11 +110,55 @@ public class P02_LandingPage {
           return "0";
       }
    }
-
-
-
-
+   public Boolean comparingItemsPrices(String prices){
+      return getTotalPriceOfSelectedProducts().equals(prices);
    }
+
+   public P02_LandingPage clickingOnFilterIcon (){
+      Utility.clickOnElement(driver,filterLohi);
+      Utility.generalWait(driver).until(ExpectedConditions.visibilityOfAllElementsLocatedBy(itemPrices));
+      return new P02_LandingPage(driver);
+   }
+
+   public List<Float> gettingItemsPrices(){
+      List<WebElement> prices = driver.findElements(itemPrices);
+      List<Float> pricesAfterFilter = new ArrayList<>();
+      for (int i = 1;i<=prices.size();i++){
+          By element = By.xpath("(//div [@class='inventory_item_price'])["+i+"]");
+          String pp = Utility.getText(driver,element);
+          float fValue = Float.parseFloat(pp.replace("$",""));
+          pricesAfterFilter.add(fValue);
+      }
+      LogsUtils.info("Prices after filtering : "+ pricesAfterFilter.toString());
+      return pricesAfterFilter;
+   }
+
+
+   public List<Float> sortedPrices(){
+      List<WebElement>sortedPrices = driver.findElements(itemPrices);
+      List<Float> sortedPricesFloat = new ArrayList<>();
+       for (int i = 1;i<=sortedPrices.size();i++){
+           By element = By.xpath("(//div [@class='inventory_item_price'])["+i+"]");
+           String pp = Utility.getText(driver,element);
+           float fValue = Float.parseFloat(pp.replace("$",""));
+           sortedPricesFloat.add(fValue);
+       }
+      Collections.sort(sortedPricesFloat);
+       LogsUtils.info("Actual Sorted Prices : "+ sortedPricesFloat.toString());
+       return sortedPricesFloat;
+   }
+
+   public Boolean assertFiltering (){
+      return gettingItemsPrices().equals(sortedPrices());
+   }
+
+        }
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,109 @@
+[27evel] 12-08-2025 01:40:13 [main] [Tests.TC01_LoginTest.setUp(TC01_LoginTest.java:29)] - null
+[27evel] 12-08-2025 01:40:19 [main] [Tests.TC01_LoginTest.setUp(TC01_LoginTest.java:31)] - Edge is opened
+[27evel] 12-08-2025 01:40:20 [main] [Tests.TC01_LoginTest.setUp(TC01_LoginTest.java:33)] - Page is redirected to the url
+[27evel] 12-08-2025 01:40:37 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:91)] - no such element: Unable to locate element: {"method":"css selector","selector":"#shopping_cart_container > a > svg"}
+  (Session info: MicrosoftEdge=139.0.3405.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d56760e927e367a60f8fb972b2d69625, findElement {using=css selector, value=#shopping_cart_container > a > svg}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 139.0.3405.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53236}, msedge: {msedgedriverVersion: 138.0.3351.55 (3171b71f28b7..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53236/devtoo..., se:cdpVersion: 139.0.3405.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d56760e927e367a60f8fb972b2d69625
+[27evel] 12-08-2025 01:40:37 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:9)] - TC null started
+[27evel] 12-08-2025 01:40:50 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:91)] - no such element: Unable to locate element: {"method":"css selector","selector":"#shopping_cart_container > a > svg"}
+  (Session info: MicrosoftEdge=139.0.3405.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d56760e927e367a60f8fb972b2d69625, findElement {using=css selector, value=#shopping_cart_container > a > svg}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 139.0.3405.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53236}, msedge: {msedgedriverVersion: 138.0.3351.55 (3171b71f28b7..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53236/devtoo..., se:cdpVersion: 139.0.3405.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d56760e927e367a60f8fb972b2d69625
+[27evel] 12-08-2025 01:40:50 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - TC null passed
+[27evel] 12-08-2025 01:40:52 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:91)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
+[27evel] 12-08-2025 01:40:52 [main] [Tests.TC01_LoginTest.setUp(TC01_LoginTest.java:29)] - null
+[27evel] 12-08-2025 01:40:56 [main] [Tests.TC01_LoginTest.setUp(TC01_LoginTest.java:31)] - Edge is opened
+[27evel] 12-08-2025 01:40:57 [main] [Tests.TC01_LoginTest.setUp(TC01_LoginTest.java:33)] - Page is redirected to the url
+[27evel] 12-08-2025 01:41:10 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:91)] - no such element: Unable to locate element: {"method":"css selector","selector":"#shopping_cart_container > a > svg"}
+  (Session info: MicrosoftEdge=139.0.3405.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4ac19f57584460539679de31ac1beb5f, findElement {using=css selector, value=#shopping_cart_container > a > svg}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 139.0.3405.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53267}, msedge: {msedgedriverVersion: 138.0.3351.55 (3171b71f28b7..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53267/devtoo..., se:cdpVersion: 139.0.3405.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ac19f57584460539679de31ac1beb5f
+[27evel] 12-08-2025 01:41:10 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:9)] - TC null started
+[27evel] 12-08-2025 01:41:23 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:91)] - no such element: Unable to locate element: {"method":"css selector","selector":"#shopping_cart_container > a > svg"}
+  (Session info: MicrosoftEdge=139.0.3405.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4ac19f57584460539679de31ac1beb5f, findElement {using=css selector, value=#shopping_cart_container > a > svg}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 139.0.3405.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53267}, msedge: {msedgedriverVersion: 138.0.3351.55 (3171b71f28b7..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53267/devtoo..., se:cdpVersion: 139.0.3405.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ac19f57584460539679de31ac1beb5f
+[27evel] 12-08-2025 01:41:23 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - TC null passed
+[27evel] 12-08-2025 01:41:23 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:91)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
+[27evel] 12-08-2025 01:41:23 [main] [Tests.TC01_LoginTest.setUp(TC01_LoginTest.java:29)] - null
+[27evel] 12-08-2025 01:41:28 [main] [Tests.TC01_LoginTest.setUp(TC01_LoginTest.java:31)] - Edge is opened
+[27evel] 12-08-2025 01:41:29 [main] [Tests.TC01_LoginTest.setUp(TC01_LoginTest.java:33)] - Page is redirected to the url
+[27evel] 12-08-2025 01:41:41 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:91)] - no such element: Unable to locate element: {"method":"css selector","selector":"#shopping_cart_container > a > svg"}
+  (Session info: MicrosoftEdge=139.0.3405.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1658c610c6083328227403166fcef86e, findElement {using=css selector, value=#shopping_cart_container > a > svg}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 139.0.3405.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53297}, msedge: {msedgedriverVersion: 138.0.3351.55 (3171b71f28b7..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53297/devtoo..., se:cdpVersion: 139.0.3405.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1658c610c6083328227403166fcef86e
+[27evel] 12-08-2025 01:41:41 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:9)] - TC null started
+[27evel] 12-08-2025 01:41:54 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:91)] - no such element: Unable to locate element: {"method":"css selector","selector":"#shopping_cart_container > a > svg"}
+  (Session info: MicrosoftEdge=139.0.3405.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1658c610c6083328227403166fcef86e, findElement {using=css selector, value=#shopping_cart_container > a > svg}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 139.0.3405.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53297}, msedge: {msedgedriverVersion: 138.0.3351.55 (3171b71f28b7..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53297/devtoo..., se:cdpVersion: 139.0.3405.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1658c610c6083328227403166fcef86e
+[27evel] 12-08-2025 01:41:54 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - TC null passed
+[27evel] 12-08-2025 01:41:55 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:91)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
+[27evel] 12-08-2025 01:41:55 [main] [Tests.TC01_LoginTest.setUp(TC01_LoginTest.java:29)] - null
+[27evel] 12-08-2025 01:41:59 [main] [Tests.TC01_LoginTest.setUp(TC01_LoginTest.java:31)] - Edge is opened
+[27evel] 12-08-2025 01:42:00 [main] [Tests.TC01_LoginTest.setUp(TC01_LoginTest.java:33)] - Page is redirected to the url
+[27evel] 12-08-2025 01:42:12 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:91)] - no such element: Unable to locate element: {"method":"css selector","selector":"#shopping_cart_container > a > svg"}
+  (Session info: MicrosoftEdge=139.0.3405.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [23e89ca7f323edd6c7b1f78aba1801b0, findElement {using=css selector, value=#shopping_cart_container > a > svg}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 139.0.3405.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53326}, msedge: {msedgedriverVersion: 138.0.3351.55 (3171b71f28b7..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53326/devtoo..., se:cdpVersion: 139.0.3405.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 23e89ca7f323edd6c7b1f78aba1801b0
+[27evel] 12-08-2025 01:42:12 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:9)] - TC null started
+[27evel] 12-08-2025 01:42:17 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - TC null passed
+[27evel] 12-08-2025 01:42:19 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:91)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
+[27evel] 12-08-2025 01:42:24 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:28)] - Edge is opened
+[27evel] 12-08-2025 01:42:24 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:30)] - Page is redirected to the url
+[27evel] 12-08-2025 01:42:28 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:91)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
+[27evel] 12-08-2025 01:42:28 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:43)] - null
+[27evel] 12-08-2025 01:42:33 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:46)] - Edge is opened
+[27evel] 12-08-2025 01:42:34 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:48)] - Page is redirected to the url
+[27evel] 12-08-2025 01:42:39 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:9)] - TC null started
+[27evel] 12-08-2025 01:42:39 [main] [Pages.P02_LandingPage.selectingRandomProducts(P02_LandingPage.java:78)] - random number : 2
+[27evel] 12-08-2025 01:42:40 [main] [Pages.P02_LandingPage.selectingRandomProducts(P02_LandingPage.java:78)] - random number : 5
+[27evel] 12-08-2025 01:42:40 [main] [Pages.P02_LandingPage.selectingRandomProducts(P02_LandingPage.java:78)] - random number : 6
+[27evel] 12-08-2025 01:42:40 [main] [Pages.P02_LandingPage.numberOfProductsOnCart(P02_LandingPage.java:48)] - number of product on cart icon : 3
+[27evel] 12-08-2025 01:42:40 [main] [Pages.P02_LandingPage.numberOfSelectedProducts(P02_LandingPage.java:62)] - number of selected products : 3
+[27evel] 12-08-2025 01:42:43 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - TC null passed
+[27evel] 12-08-2025 01:42:45 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:91)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
+[27evel] 12-08-2025 01:42:45 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:43)] - null
+[27evel] 12-08-2025 01:42:49 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:46)] - Edge is opened
+[27evel] 12-08-2025 01:42:51 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:48)] - Page is redirected to the url
+[27evel] 12-08-2025 01:42:55 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:9)] - TC null started
+[27evel] 12-08-2025 01:42:55 [main] [Tests.TC02_LandingTest.checkingNumberOfSelectedProducts(TC02_LandingTest.java:56)] - Hello from login test
+[27evel] 12-08-2025 01:42:55 [main] [Pages.P02_LandingPage.addingItemsToCart(P02_LandingPage.java:38)] - number of all products : 6
+[27evel] 12-08-2025 01:42:57 [main] [Pages.P02_LandingPage.numberOfProductsOnCart(P02_LandingPage.java:48)] - number of product on cart icon : 6
+[27evel] 12-08-2025 01:42:57 [main] [Pages.P02_LandingPage.numberOfSelectedProducts(P02_LandingPage.java:62)] - number of selected products : 6

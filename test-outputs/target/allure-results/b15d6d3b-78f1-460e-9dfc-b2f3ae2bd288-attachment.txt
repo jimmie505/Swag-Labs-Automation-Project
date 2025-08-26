@@ -1,0 +1,15 @@
+[27evel] 26-08-2025 04:56:54 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:28)] - Edge is opened
+[27evel] 26-08-2025 04:56:54 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:30)] - Page is redirected to the url
+[27evel] 26-08-2025 04:57:00 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:91)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
+[27evel] 26-08-2025 04:57:00 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:43)] - null
+[27evel] 26-08-2025 04:57:07 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:46)] - Edge is opened
+[27evel] 26-08-2025 04:57:08 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:48)] - Page is redirected to the url
+[27evel] 26-08-2025 04:57:13 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:9)] - TC null started
+[27evel] 26-08-2025 04:57:13 [main] [Pages.P02_LandingPage.selectingRandomProducts(P02_LandingPage.java:75)] - random number : 1
+[27evel] 26-08-2025 04:57:13 [main] [Pages.P02_LandingPage.selectingRandomProducts(P02_LandingPage.java:75)] - random number : 3
+[27evel] 26-08-2025 04:57:13 [main] [Pages.P02_LandingPage.selectingRandomProducts(P02_LandingPage.java:75)] - random number : 6
+[27evel] 26-08-2025 04:57:14 [main] [Pages.P02_LandingPage.getTotalPriceOfSelectedProducts(P02_LandingPage.java:105)] - Total Price : 61.97
+[27evel] 26-08-2025 04:57:14 [main] [Pages.P02_LandingPage.getTotalPriceOfSelectedProducts(P02_LandingPage.java:105)] - Total Price : 123.939995
+[27evel] 26-08-2025 04:57:15 [main] [Pages.P02_LandingPage.getTotalPriceOfSelectedProducts(P02_LandingPage.java:105)] - Total Price : 185.91
+[27evel] 26-08-2025 04:57:18 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:34)] - TC null failed
+[27evel] 26-08-2025 04:57:18 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:91)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null

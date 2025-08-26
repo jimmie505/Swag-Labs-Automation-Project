@@ -1,0 +1,11 @@
+[27evel] 26-08-2025 04:43:33 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:28)] - Edge is opened
+[27evel] 26-08-2025 04:43:34 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:30)] - Page is redirected to the url
+[27evel] 26-08-2025 04:43:38 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:91)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
+[27evel] 26-08-2025 04:43:38 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:43)] - null
+[27evel] 26-08-2025 04:43:42 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:46)] - Edge is opened
+[27evel] 26-08-2025 04:43:43 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:48)] - Page is redirected to the url
+[27evel] 26-08-2025 04:43:48 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:9)] - TC null started
+[27evel] 26-08-2025 04:43:48 [main] [Pages.P02_LandingPage.selectingRandomProducts(P02_LandingPage.java:75)] - random number : 2
+[27evel] 26-08-2025 04:43:49 [main] [Pages.P02_LandingPage.selectingRandomProducts(P02_LandingPage.java:75)] - random number : 3
+[27evel] 26-08-2025 04:43:49 [main] [Pages.P02_LandingPage.selectingRandomProducts(P02_LandingPage.java:75)] - random number : 4
+[27evel] 26-08-2025 04:43:49 [main] [Pages.P02_LandingPage.getTotalPriceOfSelectedProducts(P02_LandingPage.java:105)] - Total Price : 75.97

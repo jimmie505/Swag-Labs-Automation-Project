@@ -28,6 +28,7 @@ public class DriverFactory {
                 options.addArguments("--start-maximized");
                 driverThreadLocal.set(new EdgeDriver(options));
         }
+
     }
 
     public static WebDriver getDriver(){

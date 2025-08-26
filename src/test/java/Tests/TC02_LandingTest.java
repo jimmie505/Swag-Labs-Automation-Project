@@ -19,8 +19,8 @@ import java.util.Set;
 import static DriverFactory.DriverFactory.*;
 @Listeners({IInvokedMethodListenerClass.class, ITestListenerClass.class})
 public class TC02_LandingTest {
-    private final String USERNAME = DataUtils.jsonData("validLogin","username");
-    private final String PASSWORD = DataUtils.jsonData("validLogin","password");
+    private final String USERNAME = DataUtils.jsonData("Login","validUsername");
+    private final String PASSWORD = DataUtils.jsonData("Login","validPassword");
     private Set<Cookie> cookies;
     @BeforeClass
     public void login () throws IOException {
@@ -42,7 +42,7 @@ public class TC02_LandingTest {
         String browser = System.getProperty("browser") != null ? System.getProperty("browser") : DataUtils.propertiesData("environment","Browser");
         LogsUtils.info(System.getProperty("browser"));
         setupDriver(browser);
-//        setupDriver(DataUtils.propertiesData("environment","Browser")); //before running with maven
+//      setupDriver(DataUtils.propertiesData("environment","Browser")); //before running with maven
         LogsUtils.info("Edge is opened");
         getDriver().get(DataUtils.propertiesData("environment","LandingPageUrl"));
         LogsUtils.info("Page is redirected to the url");
@@ -60,7 +60,7 @@ public class TC02_LandingTest {
     @Test
     public void addingRandomProducts (){
 
-        new P02_LandingPage(getDriver()).selectingRandomProducts(3,6);
+        new P02_LandingPage(getDriver()).selectingRandomProducts(6,6);
         Assert.assertTrue(new P02_LandingPage(getDriver()).comparingSelectedProductsWithAllProducts());
 
     }
@@ -71,6 +71,23 @@ public class TC02_LandingTest {
         Assert.assertTrue(Utility.verifyUrl(getDriver(),DataUtils.propertiesData("environment","CartUrl")));
 
     }
+    @Test
+    public void checkingFilterByPrice(){
+        new P02_LandingPage(getDriver()).clickingOnFilterIcon();
+       Assert.assertTrue(new P02_LandingPage(getDriver()).assertFiltering());
+    }
+    @Test
+    public void calculatingThePricesOfSelectedProducts(){
+      String totPrice =  new P02_LandingPage(getDriver())
+                .selectingRandomProducts(3,6)
+                .getTotalPriceOfSelectedProducts();
+        System.out.println("this is my total price : " + totPrice);
+        System.out.println("this is my total price : " + new P02_LandingPage(getDriver()).getTotalPriceOfSelectedProducts());
+        Assert.assertTrue(new P02_LandingPage(getDriver()).comparingItemsPrices(totPrice));
+    }
+
+
+
 
     @AfterMethod
     public void quit (){

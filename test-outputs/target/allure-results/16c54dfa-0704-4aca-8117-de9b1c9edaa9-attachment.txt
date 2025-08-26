@@ -1,0 +1,9 @@
+[25evel] 11-08-2025 21:44:33 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:28)] - Edge is opened
+[25evel] 11-08-2025 21:44:33 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:30)] - Page is redirected to the url
+[25evel] 11-08-2025 21:44:38 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:91)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
+[25evel] 11-08-2025 21:44:38 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:43)] - null
+[25evel] 11-08-2025 21:44:41 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:46)] - Edge is opened
+[25evel] 11-08-2025 21:44:43 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:48)] - Page is redirected to the url
+[25evel] 11-08-2025 21:44:47 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:9)] - TC null started
+[25evel] 11-08-2025 21:44:51 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - TC null passed
+[25evel] 11-08-2025 21:44:53 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:91)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null

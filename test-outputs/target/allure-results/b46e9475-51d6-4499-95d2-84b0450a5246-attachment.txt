@@ -1,0 +1,11 @@
+[27evel] 12-08-2025 17:43:29 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:28)] - Edge is opened
+[27evel] 12-08-2025 17:43:30 [main] [Tests.TC02_LandingTest.login(TC02_LandingTest.java:30)] - Page is redirected to the url
+[27evel] 12-08-2025 17:43:33 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:91)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
+[27evel] 12-08-2025 17:43:33 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:43)] - null
+[27evel] 12-08-2025 17:43:36 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:46)] - Edge is opened
+[27evel] 12-08-2025 17:43:38 [main] [Tests.TC02_LandingTest.setUp(TC02_LandingTest.java:48)] - Page is redirected to the url
+[27evel] 12-08-2025 17:43:41 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:9)] - TC null started
+[27evel] 12-08-2025 17:43:52 [main] [Pages.P02_LandingPage.gettingItemsPrices(P02_LandingPage.java:133)] - Prices after filtering : []
+[27evel] 12-08-2025 17:44:02 [main] [Pages.P02_LandingPage.gettingItemsPrices(P02_LandingPage.java:133)] - Prices after filtering : []
+[27evel] 12-08-2025 17:44:13 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:34)] - TC null failed
+[27evel] 12-08-2025 17:44:14 [main] [Utilities.Utility.takingFullScreenShot(Utility.java:91)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null

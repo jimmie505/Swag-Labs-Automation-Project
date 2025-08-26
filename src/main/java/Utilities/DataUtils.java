@@ -11,6 +11,7 @@ import java.util.Properties;
 
 public class DataUtils {
     private static final String TEST_DATA = "src/test/resources/TestData/";
+
     //TODO : reading data from JSON file
     public static String jsonData (String fileName , String key ) {
         try {

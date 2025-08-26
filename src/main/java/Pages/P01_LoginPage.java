@@ -5,6 +5,7 @@ import Utilities.Utility;
 import org.apache.logging.log4j.core.util.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 import static DriverFactory.DriverFactory.getDriver;
 
@@ -16,7 +17,6 @@ public P01_LoginPage (WebDriver driver){
     private static final By username = By.id("user-name");
     private static final By password = By.id("password");
     private static final By loginButton = By.id("login-button");
-
 
 
 
@@ -35,4 +35,5 @@ public P01_LoginPage (WebDriver driver){
     public boolean assertLoginTC (String expectedValue){
       return   driver.getCurrentUrl().equals(expectedValue);
     }
+
 }

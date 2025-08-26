@@ -20,8 +20,8 @@ import static DriverFactory.DriverFactory.*;
 
 @Listeners({IInvokedMethodListenerClass.class, ITestListenerClass.class})
 public class TC05_OverviewTest {
-    private final String USERNAME = DataUtils.jsonData("validLogin","username");
-    private final String PASSWORD = DataUtils.jsonData("validLogin","password");
+    private final String USERNAME = DataUtils.jsonData("Login","validUsername");
+    private final String PASSWORD = DataUtils.jsonData("Login","validPassword");
     private final String FIRSTNAME = DataUtils.jsonData("validCheckout","firstName") + "-" + Utility.getTimeStamp();
     private final String LASTNAME =  DataUtils.jsonData("validCheckout","lastName") + "-" + Utility.getTimeStamp();
     private final String POSTALCODE = new Faker().number().digits(5);
